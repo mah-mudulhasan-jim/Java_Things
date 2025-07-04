@@ -1,11 +1,12 @@
-public class test1{
+public class hw_problem03{
   public static void main(String [] args){
-    int num1 = 3647;
-    System.out.println(num1 / 10);
-    System.out.println(num1 % 10);
+    int num1 = 23221454;
+//    System.out.println(num1 / 10);
+//    System.out.println(num1 % 10);
     int last = num1%10;
     int last2 = (num1 / 10)%10;
     
     System.out.println(last + "" + last2);
   }
 }
+    
